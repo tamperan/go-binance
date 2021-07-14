@@ -14,8 +14,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/tamperan/go-binance/v2/common"
 	"github.com/bitly/go-simplejson"
+	"github.com/tamperan/go-binance/v2/common"
 )
 
 // SideType define side type of order
@@ -53,6 +53,18 @@ type WorkingType string
 
 // MarginType define margin type
 type MarginType string
+
+// OrderExecutionType define order execution type
+type OrderExecutionType string
+
+// UserDataEventType define user data event type
+type UserDataEventType string
+
+// UserDataEventReasonType define reason type for user data event
+type UserDataEventReasonType string
+
+// ForceOrderCloseType define reason type for force order
+type ForceOrderCloseType string
 
 // Endpoints
 const (
